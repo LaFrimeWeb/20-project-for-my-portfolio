@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s;
+}
+
+.button-container {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#grey {
+    background-color: grey;
+    color: white;
+}
+
+#white {
+    background-color: white;
+    color: black;
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+}
+
+#yellow {
+    background-color: yellow;
+    color: black;
+}
+
+#green {
+    background-color: green;
+    color: white;
+}
+
+#red {
+    background-color: red;
+    color: white;
+}
+
+#purple {
+    background-color: purple;
+    color: white;
+}
+
+#orange {
+    background-color: orange;
+    color: white;
+}
+
+#pink {
+    background-color: pink;
+    color: black;
+}
+
+#black {
+    background-color: black;
+    color: white;
+}
+
+#brown {
+    background-color: brown;
+    color: white;
+}
+
+#cyan {
+    background-color: cyan;
+    color: black;
+}
+
+#magenta {
+    background-color: magenta;
+    color: white;
+}
+
+#lime {
+    background-color: lime;
+    color: black;
+}
+
+#olive {
+    background-color: olive;
+    color: white;
+}
+
+#maroon {
+    background-color: maroon;
+    color: white;
+}
+
+#navy {
+    background-color: navy;
+    color: white;
+}
+
+#teal {
+    background-color: teal;
+    color: white;
+}
+
+#silver {
+    background-color: silver;
+    color: black;
+}
+
+#gold {
+    background-color: gold;
+    color: black;
+}
